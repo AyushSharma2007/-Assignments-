@@ -52,6 +52,9 @@ Submit the following:
 
 [Github Repo Link](https://github.com/AyushSharma2007/day5.git)
 
+<img width="578" height="115" alt="06 (2)" src="https://github.com/user-attachments/assets/ca8a60b4-09c3-49cf-aafa-5edd7c5579b6" />
+
+<img width="1288" height="281" alt="06" src="https://github.com/user-attachments/assets/cf98bddf-ea72-429a-ab68-abab0dd05209" />
 
 <img width="934" height="132" alt="git log 06" src="https://github.com/user-attachments/assets/788b542b-dea5-490d-b5b8-49169dd32edd" />
 <img width="1815" height="548" alt="git repo 06" src="https://github.com/user-attachments/assets/6d6e1832-3e4b-40b1-ab7a-ea0b7c22273d" />
