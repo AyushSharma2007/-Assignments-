@@ -1,0 +1,274 @@
+1.
+What is a variable?
+Ans.
+In Python, a variable is a name that stores a value. In which place when you stored a information to use in your program later
+
+2.
+Why are variables useful in programming?
+Ans. 
+Suppose when we have to use a data repeatedly which is large so we use a variable so that things will not get messy and will easy to organize
+
+3.
+What is assignment?
+Ans.
+In python assignment means giving a value to a variable
+the assignment symbol is (=)
+
+4.
+What does the following statement do?
+"age = 18"
+Ans.
+"age = 18" in the following statement age is a variable and 18 is assignment and 18 is the data stored in the age
+
+5.
+Explain the difference between a variable and its value.
+Ans.
+"variable" The name used to store some data
+"Value" It is the data that is stored in the variable
+
+6.
+What is reassignment?
+Ans.
+"Reassignment" means giving new value to a variable that already have a value
+Example:
+age = 18
+age = 19
+when we use print(age)
+the result will be 19
+
+7.
+What happens to the current value of a variable when a new value is assigned to it?
+Ans.
+When the new value assign to the variable old value will get replace by it 
+
+8.
+What does it mean that Python variable names are case-sensitive?
+Ans.
+Python is case sensitive means something written in capital later and in small later both are different 
+Example:
+ADESHYA
+adeshya 
+both are diffrtnt
+
+9.
+What is a naming convention?
+Ans.
+It is a set of rules for choosing names for variables
+
+10.
+What is snake_case?
+Ans.
+In Python the common naming convention for variable is snake_case.
+a) starting the name of the variable with a number is invalid
+b) starting the name with inderscore is valid 
+c) using a spatial caracter in variable is invalid 
+d) having space in between of the variable is invalid
+
+B. Variable Naming Practice
+11.
+Which of the following are valid variable names?
+
+{name
+i) student_name
+ii) 1student
+iii) student1
+iv) student name
+v) _total
+Explain your answers.}
+Ans.
+i) valid - because there is no space in between student and name
+ii) invalid - because there is a number in startingof the variable
+iii) valid 
+iv) invalid - because there is a space in between student name
+v) valid
+
+13.
+Why is student_name generally better than studentname for readability?
+Ans.
+Because we can see the clear gap in student & name unlike studentname whithout breaking any rules of python naming 
+
+14.
+Why is student_name generally better than x when storing a student's name?
+Ans.
+student_name is generally better than x because it conways's clear message what is the pourpuse of this variable.
+
+15.
+Are these names different in Python?
+
+age
+Age
+AGE
+Explain.
+Ans:
+Yes, these three names are different in python because python is a case sensitive language.
+
+16.
+Identify the naming convention used in:
+
+a) total_marks
+b) student_name
+c) phone_number
+Ans:
+a) Total marks 
+b) Student's name
+c) Phone number 
+
+17.
+Write suitable variable names for:
+
+a) Student's name
+b) Student's age
+c) Student's city
+d) Total marks
+e) College name
+Use Python's common naming convention.
+Ans:
+a) student_name
+b) student_age
+c) student_city
+d) total_marks
+e) college_name
+
+C. Code Understanding
+18.
+What values will the following variables refer to?
+
+name = "Rahul"
+age = 18
+city = "Patna"
+Write your answer in this form:
+
+name → ?
+age → ?
+city → ?
+Ans.
+name → "Rahul"
+age → "18"
+city → "Patna"
+
+19.
+What is the final value of age?
+
+age = 18
+age = 19
+Explain why.
+Ans.
+The final value of age will be 19 because of rearrangement of python
+
+20.
+What is the final value of name?
+
+name = "Rahul"
+name = "Amit"
+name = "Riya"
+Ans.
+The final value of name is "Riya"
+
+21.
+Explain what happens in this program:
+
+student_name = "Rahul"
+student_age = 18
+student_age = 19
+Ans.
+Rahul
+19
+
+22.
+What values will a, b, and c refer to?
+
+a, b, c = 10, 20, 30
+Ans.
+a = 10 b = 20 c = 30
+
+23.
+What values will x, y, and z refer to?
+
+x = y = z = 100
+Ans.
+x = 100 y = 100 z = 100
+
+D. Practical Problems
+24.
+Create variables for the following information:
+
+Your name
+Your age
+Your city
+Use meaningful variable names
+Ans.
+your_name = Adeshya 
+your_age = 19
+your_city = Agra
+
+25.
+Create variables for:
+
+Student name
+Student roll number
+Student branch
+Follow Python's recommended naming convention.
+Ans.
+student_name
+student_roll_number
+student_branch
+
+26.
+Write a program that assigns a value to a variable called marks, then reassigns a new value to marks.
+
+Explain the value before and after reassignment.
+Ans.
+marks = 75
+
+print("Marks before reassignment:", marks)
+marks = 90
+print("Marks after reassignment:", marks)
+
+27.
+Use multiple assignment to create the following variables in one statement:
+Ans.
+name, age, city = "Rahul", 18, "Patna"
+
+print(name)
+print(age)
+print(city)
+
+28.
+Use one statement to assign the value 0 to three variables:
+
+x
+y
+z
+Ans.
+x=0=y=z
+print(x)
+print(y)
+print(z)
+
+29.
+The following code contains invalid variable names:
+
+1student = "Rahul"
+student name = "Rahul"
+class = "B.Tech"
+Rewrite all three using valid and meaningful variable names.
+Ans.
+student_name = "Rahul"
+student_full_name = "Rahul"
+class_name = "B.Tech"
+
+30.
+Create a small Python program that stores a student's name and age, reassigns the age to a new value, and then displays the current values. Use:
+
+A useful comment
+Meaningful variable names
+snake_case
+Reassignment
+Ans.
+student_name = "Rahul"
+student_age = 18
+
+student_age = 19
+
+print("Student Name:", student_name)
+print("Student Age:", student_age)
